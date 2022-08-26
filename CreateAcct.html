@@ -1,0 +1,141 @@
+<!DOCTYPE html> 
+<!-- SHREYA PRAKASAN | 20BCE1261 --> 
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Create Account</title> 
+        <link rel="stylesheet" href="CreateAcct.css"> 
+        <link rel="script" href="CreateAcct.js"> 
+        <style> 
+ 
+        </style> 
+    </head> 
+    <body> 
+        <header>
+            <h1 style="font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 50px;">
+                SAN ELECTRONICS 
+            </h1>
+            <span style="word-spacing: 60px;">
+                <a href="" style="text-decoration: none; color: #d6d5a8">Home </a>
+                
+                <div class="dropdown">
+                    <button style="background-color: transparent; border: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 20px; color: #d6d5a8;">
+                        Account 
+                    </button>
+                    <div class="dropdownCont">
+                        <a href="">LOG IN </a>
+                        <a href="">CREATE ACCOUNT</a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <button style="background-color: transparent; border: none; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 20px; color: #d6d5a8;">
+                        Cart 
+                    </button>
+                    <div class="dropdownCont">
+                        <a href="">VIEW CART </a>
+                        <a href="">CHECK OUT</a>
+                    </div>
+                </div>
+            </span>
+        </header>
+        
+        <br><br><br><br><br><br>
+        <div style="width:100%; align-content: center; padding-top: 30px;"> 
+            <!-- <div style="width:50%;">  -->
+                <table align="center"> 
+                    <tr> 
+                        <td> 
+                            <img src="createAcctIcon.png" height="100" width="100"> 
+                        </td> 
+                        <td align="center"> 
+                            <h1 id="acctHead"> 
+                                &nbsp;&nbsp;&nbsp;&nbsp; Create Account 
+                            </h1> 
+                        </td> 
+                    </tr> 
+                </table> 
+
+                <!-- <img id = "logo" src = "shopping-cart.png" height="50px" width="50px">  -->
+                 
+                <form align="left" name = "signup"></form> 
+                    
+                    <table cellpadding="17" align="center"> 
+                        <tr> 
+                            <th id = "fnametitle" align="left"> 
+                                First Name 
+                            </th> 
+                            <td> 
+                                <input name = "" id = "fname" type="text" style="width: 300px; height: 25px; border-radius: 5px;"> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <th align="left"> 
+                                Last Name 
+                            </th> 
+                            <td> 
+                                <input id = "lname" type="text" style="width: 300px; height: 25px; border-radius: 5px;"> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <th align="left"> 
+                                Phone Number 
+                            </th> 
+                            <td> 
+                                <input id = "pnum" type="text" style="width: 300px; height: 25px; border-radius: 5px;"> 
+                            </td> 
+                        </tr> 
+
+                        <tr> 
+                            <th align="left"> 
+                                E-Mail 
+                            </th> 
+                            <td> 
+                                <input id = "email" type="text" style="width: 300px; height: 25px; border-radius: 5px;"> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <th align="left"> 
+                                Gender 
+                            </th> 
+                            <td align="left"> 
+                                <input id = "gender" name="gender" type="radio" style="height: 20px; width: 20px;"> Male
+                                &nbsp;&nbsp; <input id = "gender" name="gender" type="radio" style="height: 20px; width: 20px;">Female 
+                                &nbsp;&nbsp; <input id = "gender" name="gender" type="radio" style="height: 20px; width: 20px;">Other 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <th id="pwInfo" align="left" title="Password must contain atleast 1 special character and 1 digit"> 
+                                Create Password &nbsp; &#9432; 
+                            </th> 
+                            <td> 
+                                <input id = "pw" type="password" style="width: 300px; height: 25px; border-radius: 5px;"> 
+                            </td> 
+                        </tr> 
+                        <tr> 
+                            <th align="left"> 
+                            Confirm Password 
+                            </th> 
+                            <td> 
+                            <input id = "pwc" type="password" style="width: 300px; height: 25px; border-radius: 5px;"> 
+                            </td> 
+                        </tr> 
+                        <tr > 
+                            <td > 
+                            <input onclick="submitclicked()" class="button" type="submit" value="CREATE ACCOUNT"> 
+                            </td> 
+                        </tr> 
+                    </table> 
+                </form> 
+                <!-- <p id = "para" style="width: 100px; color: white; border-color: white;">                      
+                </p>  -->
+            <!-- </div>  -->
+
+            <!-- <div style="width: 50%; float: left; margin-left: 0px; margin-bottom: 0px;"> 
+                <img src="createAcctLeftBG.jpg" style="height: 107ex; width: 110ex; display: block;"> 
+            </div>  -->
+        </div> 
+    </body> 
+</html> 
